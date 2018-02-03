@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<style type="text/css">
+#myDIV {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    overflow-y: auto;
+	height: 60vh;
+
+}
+.botDiv {
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	text-align: right;
+	border-top: solid;
+	border-color: black;
+	border-width: 1px;
+
+}
+
+</style>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="myScript.js"></script> 
+</head>
+
+	<div class="w3-container w3-black">
+  		<h2>Bot demo</h2>
+	</div>
+	<div id="myDIV">
+	</div>
+	<p>
+  		<label>Enter your text</label>
+  		<input class="w3-input" type="text" id="userText" onchange="botTime()" onfocus="this.value=''">
+  		<button class="w3-button" id="send" onclick="botTime()">Submit</button>
+  	<p>
+</html>
+
+
+
+
+
+
+
